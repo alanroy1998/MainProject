@@ -1,0 +1,72 @@
+.container{
+    background:whitesmoke
+}
+.teamnames{
+    margin-top: 50px;
+    text-align:center;
+    padding: 10px;
+}
+.teamnames h1{
+    background: cadetblue;
+}
+.col-sm-12{
+    display: flex;
+    text-align:center;
+    min-height:160px;
+}
+.col-sm-12 .col-sm-5{
+    
+    padding:5px 0px;
+}
+.col-sm-2{
+    font-size:6vw;
+}
+.col-sm-2 .against{
+
+    color:#1d0a0177;
+}
+.form .team select{
+    margin-top:5px;
+}
+
+
+@media only screen and (min-width: 500px) {
+
+
+    .form .team select{
+    width:300px;
+}
+.form .matchtype select{
+    width:300px;
+    display:inline-block;
+}
+
+}
+@media only screen and (max-width: 1200px) {
+
+.col-sm-2{
+    padding-top:20px;
+}
+
+}
+@media only screen and (max-width: 800px) {
+
+.col-sm-2{
+    padding-top:40px;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+.col-sm-12{
+    display:block;
+    height:auto;
+}
+.col-sm-2{
+    padding-top:5px;
+}
+
+
+}

@@ -1,0 +1,41 @@
+
+.form .logo{
+    display: flex;
+    height: 200px;
+}
+.form .logo .logo-preview{
+    width: 150px;
+    max-height: 150px;
+    margin-left: 10px;
+}
+.form .logo .logo-preview img{
+    height: 150px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.plyr-nme .form-control{
+    margin-bottom: 2px;
+}
+
+#btn_s{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-6{  
+    float: left;
+}
+
+.button{
+    text-align:center;
+}
+
+.button input{
+    width: 250px; 
+    margin-top: 20px;
+}
+

@@ -1,0 +1,108 @@
+body {
+    position: relative;
+  }
+
+.navbar img{
+    width: 50px;
+}
+
+
+.tab-content .tab-pane .col-sm-8{
+    padding-top: 50px;
+    float: left;
+}
+.tab-content .tab-pane .col-sm-8 .name{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    color: rgb(61, 9, 9);
+}
+.tab-content .tab-pane .col-sm-8 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(27, 27, 63);
+}
+
+.tab-content .tab-pane  .col-sm-4{
+    float: left;
+    background: rgb(245, 240, 240);
+    margin-top: 15px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.tab-content .tab-pane  .col-sm-4 .lgnbtn{
+    position:sticky;
+    top: 1px;
+    box-shadow:1px 1px 1px 2px;
+}
+.tab-content .tab-pane  .col-sm-4 h4{
+    background-color: rgb(215, 219, 233);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.tab-content .tab-pane  .col-sm-4 h4 a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    padding: 0px 20px;
+    font-weight: 600;
+}
+.tab-content .tab-pane .col-sm-4 h4 a:hover{
+    background: rgb(215, 219, 233);
+    color: blue;
+}
+
+.tab-content .tab-pane  .col-sm-4 h5{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.tab-content .tab-pane  .col-sm-4 a{
+    overflow-wrap: break-word;
+    text-align: justify ;
+}
+
+.img-square-wrapper img{
+    width:200px;
+    height: 200px;
+    padding: 20px;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#contact{
+    padding-top: 80px;
+    text-align: center;
+}
+#contact label{
+    color: teal;
+    font-size: 18px;
+}
+
+#contact .info{
+    background: rgb(252, 251, 251);
+    display: inline-block;
+    padding: 10px;
+}
+#contact .info tr{
+    line-height: 35px;
+    font-family:cursive;
+}
+#contact .info td{
+    padding: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    
+    .card-horizontal {
+        display: block;
+        text-align:center;
+    }
+    
+   
+  }

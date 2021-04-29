@@ -1,0 +1,92 @@
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 800;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navigation {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  background: rgb(245, 235, 245);
+
+}
+.navigation h5{
+  font-size: 18px;
+}
+
+.companymenuli{
+  list-style-type: none;
+}
+
+
+.submenu{
+  display:none;
+}
+
+.companymenuli:hover > ul{
+  display:block;
+  list-style-type: none;
+  padding: 0px;
+  transition: margin .25s ease-out;
+}
+
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media screen and (max-width: 1200px) {
+  .box{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .box{
+    width:90%;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

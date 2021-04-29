@@ -1,0 +1,15 @@
+
+.navbar img{
+    width: 50px;
+}
+.nav-item {
+    min-width:80px;
+}
+.nav-item:hover{
+    background: rgb(223, 230, 243);
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

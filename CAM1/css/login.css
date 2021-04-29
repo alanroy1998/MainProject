@@ -1,0 +1,93 @@
+body{
+    background-image: url("../images/loginbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box{
+    text-align: center;
+    margin-top: 100px;
+}
+.brand-wrapper {
+    text-align: center;
+    color: rgb(70, 57, 57);
+}
+.brand-wrapper img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.form{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    color: rgb(70, 57, 57);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.lgnfrmimg img{
+    padding: 20px;
+    height: 100vh;
+}
+
+.submit-btn{
+    text-align: center;
+    background-color: #1e70a3;
+    padding: 2px 0px;
+}
+.submit-btn button{
+    width:150px; 
+    display: inline-block; 
+    font-size: 20px; 
+    font-weight: 600;
+    border-radius: 10px;
+}
+.clearbtn{
+    float:left;
+    padding-top: 20px;
+}
+
+.clearbtn input{
+    width:100px;
+    font-weight: 600;
+    height: 35px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.clearbtn input:hover{
+    background-color: rgb(172, 118, 20);
+}
+
+.forgetbtn{
+    float:right;
+    padding-top: 20px;
+}
+.forgetbtn a{
+
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    
+    .form {
+        width: 70%;
+    }
+    
+   
+  }
+@media only screen and (max-width: 580px) {
+
+    
+    .form {
+        width: 100%;
+    }
+    
+   
+  }
